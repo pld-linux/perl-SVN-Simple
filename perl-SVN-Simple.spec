@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	SVN
-%define	pnam	Simple
+%define		pdir	SVN
+%define		pnam	Simple
 Summary:	SVN::Simple - Simple interface for delta editors
 Summary(pl):	SVN::Simple - prosty interfejs do edytorów ró¿nic
 Name:		perl-SVN-Simple
