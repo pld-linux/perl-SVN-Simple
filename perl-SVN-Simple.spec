@@ -6,6 +6,7 @@
 %define	pdir	SVN
 %define	pnam	Simple
 Summary:	SVN::Simple - Simple interface for delta editors
+Summary(pl):	SVN::Simple - prosty interfejs do edytorów ró¿nic
 Name:		perl-SVN-Simple
 Version:	0.25
 Release:	1
@@ -15,7 +16,6 @@ Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CL/CLKAO/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	559c41fa75797e2f33af1cead21897cf
-URL:		http://www.geocities.com/easydatabase/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-subversion
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -26,6 +26,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 SVN::Simple::Edit, a simple interface for driving svn delta editors
 and SVN::Simple::Editor, a simple interface for writing a delta
 editor.
+
+%description -l pl
+SVN::Simple::Edit to prosty interfejs do sterowania edytorami ró¿nic
+(delt) svn, a SVN::Simple::Editor to prosty interfejs do pisania
+edytora ró¿nic.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
