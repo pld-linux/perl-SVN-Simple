@@ -6,7 +6,7 @@
 %define		pdir	SVN
 %define		pnam	Simple
 Summary:	SVN::Simple - Simple interface for delta editors
-Summary(pl.UTF-8):   SVN::Simple - prosty interfejs do edytorów różnic
+Summary(pl.UTF-8):	SVN::Simple - prosty interfejs do edytorów różnic
 Name:		perl-SVN-Simple
 Version:	0.27
 Release:	1
