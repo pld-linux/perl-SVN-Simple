@@ -9,7 +9,7 @@ Summary:	SVN::Simple - Simple interface for delta editors
 Summary(pl.UTF-8):	SVN::Simple - prosty interfejs do edytorów różnic
 Name:		perl-SVN-Simple
 Version:	0.27
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
