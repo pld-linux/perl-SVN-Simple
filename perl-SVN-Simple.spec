@@ -8,14 +8,14 @@
 Summary:	SVN::Simple - Simple interface for delta editors
 Summary(pl.UTF-8):	SVN::Simple - prosty interfejs do edytorów różnic
 Name:		perl-SVN-Simple
-Version:	0.27
-Release:	2
+Version:	0.28
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Source0:	http://www.cpan.org/modules/by-authors/id/C/CL/CLKAO/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6a5609e038421564051019649dd05fd0
+# Source0-md5:	4de2374434df79dace03075c69e7b93f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-subversion
 BuildRequires:	rpm-perlprov >= 4.1-13
