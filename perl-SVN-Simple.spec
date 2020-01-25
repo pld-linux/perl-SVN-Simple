@@ -4,7 +4,6 @@
 
 %define		pdir	SVN
 %define		pnam	Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	SVN::Simple - Simple interface for delta editors
 Summary(pl.UTF-8):	SVN::Simple - prosty interfejs do edytorów różnic
 Name:		perl-SVN-Simple
